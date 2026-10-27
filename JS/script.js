@@ -27,5 +27,21 @@
 
 //console.log(lista)
 
-const lista = new Array("arroz", "leite", "biscoito");
-console.log(lista);
+//const lista = new Array("arroz", "leite", "biscoito");
+//console.log(lista);
+
+const pessoa = ["Pedro", "Cunha", 18]
+document.writeln(pessoa + "<br><br>")
+
+pessoa.push('brasileiro')
+document.writeln(pessoa + "<br><br>")
+
+pessoa.unshift("Escritor Iniciante")
+document.writeln(pessoa + "<br><br>")
+
+pessoa.splice(2,/*Indice*/ 0,/*Apagar?*/ "P"/*O que escrever*/)
+document.writeln(pessoa + "<br><br>")
+
+const jogadores = ["irene", "matheus", "pedro", "ana"]
+document.writeln(jogadores + " - Ordem antes<br><br>")
+document.writeln(jogadores.sort() + " - Ordem depois<br><br>")
