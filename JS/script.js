@@ -50,3 +50,11 @@ const numeros = [12, 98, 56, 76]
 document.writeln(numeros + " - Ordem antes<br><br>")
 const numerosOrdem = numeros.sort()
 document.writeln(numerosOrdem + " - Ordem depois<br><br>")
+
+const objetos = [321,34,21,23,56,43,5687,756,23,5,4,762,6,76,,243,74,98]
+
+const ordem = objetos.sort(function(a,b){
+    return a-b;
+})
+
+document.writeln(ordem + "<br><br>")
