@@ -45,3 +45,8 @@ document.writeln(pessoa + "<br><br>")
 const jogadores = ["irene", "matheus", "pedro", "ana"]
 document.writeln(jogadores + " - Ordem antes<br><br>")
 document.writeln(jogadores.sort() + " - Ordem depois<br><br>")
+
+const numeros = [12, 98, 56, 76]
+document.writeln(numeros + " - Ordem antes<br><br>")
+const numerosOrdem = numeros.sort()
+document.writeln(numerosOrdem + " - Ordem depois<br><br>")
